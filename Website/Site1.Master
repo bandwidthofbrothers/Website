@@ -19,7 +19,13 @@
             <div id="navigation">
                 <ul id="nav">
                     <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Pages/Home.aspx">Home</asp:HyperLink></li>                   
-                    <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Pages/Menu.aspx">Menu</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Pages/Menu.aspx">Menu</asp:HyperLink>
+                        <ul>
+                            <li><asp:HyperLink ID="SubMen1" runat="server" NavigateUrl="~/BriyaniMenu.aspx">Briyani</asp:HyperLink></li>
+                            
+                        </ul>
+                    </li>
+                        
                     <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Pages/About.aspx">About Us</asp:HyperLink></li>
                     <li><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Pages/Contact.aspx">Contact Us</asp:HyperLink></li>
                     <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Pages/Management/Management.aspx">Management</asp:HyperLink></li>

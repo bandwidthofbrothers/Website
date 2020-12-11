@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BriyaniMenu.aspx" />
+    <Content Include="BunnyChowMenu.aspx" />
     <Content Include="Images\Login Icon with text.png" />
     <Content Include="Images\Menu Icon 2.png" />
     <Content Include="Images\register-icon.png" />
@@ -143,6 +145,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BriyaniMenu.aspx.cs">
+      <DependentUpon>BriyaniMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BriyaniMenu.aspx.designer.cs">
+      <DependentUpon>BriyaniMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BunnyChowMenu.aspx.cs">
+      <DependentUpon>BunnyChowMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BunnyChowMenu.aspx.designer.cs">
+      <DependentUpon>BunnyChowMenu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
