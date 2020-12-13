@@ -27,6 +27,9 @@
                         <div class="col-md-10">
                             <asp:TextBox runat="server" ID="Password" TextMode="Password" CssClass="form-control" />
                             <asp:RequiredFieldValidator runat="server" ControlToValidate="Password" CssClass="text-danger" ErrorMessage="The password field is required." />
+                            <br />
+                            <asp:Button ID="Button1" runat="server" Text="Login" Width="132px" />
+                            <br />
                         </div>
                     </div>
                     <div class="form-group">
